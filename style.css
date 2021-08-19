@@ -1,0 +1,192 @@
+body{
+
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    background: url("images/11017092.jpg");
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
+.left{
+    /* border: 3px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 13px;
+    left: 28px;
+
+    
+    
+}
+
+.left img{
+    width: 50px;
+    height: 50px;
+    /* border-radius: 500px; */
+
+}
+
+.left h3
+{
+    padding: 1px 1px;
+    margin: 1px auto;
+    font-family: 'Ubuntu', sans-serif;;
+}
+
+
+.mid{
+    display: block;
+    width: 40%;
+    margin: 5px auto;
+    border: 3px solid rgba(129, 93, 93, 0);
+}
+
+.navbar{
+    list-style: none;
+    text-decoration: none;
+
+}
+.navbar li a{
+    
+    padding: 5px;
+    
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    background-color: rgba(0, 0, 0, 0.233);
+    border-radius: 10px;
+    border: blue 3px solid;
+    color: rgb(166, 255, 0);
+    /* text-decoration:underline; */
+
+}
+
+
+
+.navbar li {
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.text{
+
+    /* border: 2px solid black; */
+    padding: 1px 1px;
+    margin: 1px 1px;
+    position: absolute;
+    left: 200px;
+    top: 19%;
+    display: inline-block;
+    width: 50%;
+}
+
+.text h1{
+    /* outline-width: px; */
+    font-size: 120px;
+    text-shadow: 0 0 30px black;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Acme', sans-serif;
+}
+
+.right{
+    /* border: 3px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right : 80px;
+}
+
+.btn1
+{
+    padding: 11px 18px;
+    margin: 2px 2px;
+    color: white;
+    background-color: rgb(211, 20, 131);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.btn2
+{
+    padding: 11px 18px;
+    margin: 2px 2px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(212, 41, 41);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.btn1:hover{
+    color: black;
+    background-color: rgb(255, 85, 227);
+    border: 2px black solid;
+}
+.btn2:hover{
+    color: black;
+    background-color: rgb(255, 85, 85);
+    border: 2px black solid;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.219);
+    position: absolute;
+    right: 30px;
+    top: 170px;
+    border: 2px solid black;
+    padding: 45px;
+    border-radius: 40px;
+
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 300px;
+    height: 30px;
+    padding: 1px;
+    border: 2px solid rgb(71, 10, 90);
+    margin: 11px auto;
+    font-size: 15px;
+    border-radius: 8px;
+
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    /* border: 3px red solid; */
+    /* display: inline-block; */
+    /* margin: auto; */
+    padding: 3px 3px;
+    font-size: 72px;
+}
+
+/* #btnlog1{
+
+    padding: 3px 3px;
+    margin: 3px 3px;
+
+
+}
+
+#btnlog2{
+
+ padding: 3px 3px;
+    margin: 3px 3px;
+} */
+
+.loginbuttons{
+
+   position: relative;
+   left: 70px;
+   top: 15px;
+
+}
+
+
