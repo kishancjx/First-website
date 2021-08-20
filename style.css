@@ -2,76 +2,139 @@ body{
 
     padding: 0px;
     margin: 0px;
-    color: white;
-    background: url("https://wallpaper.dog/large/11017092.jpg");
-    background-repeat: no-repeat;
-    height: 900px;
-}
+    background-image: url("https://images.hdqwalls.com/download/vector-design-retro-4k-fh-1600x900.jpg");
 
+    background-repeat: no-repeat;
+
+}
 .left{
-    /* border: 3px solid red; */
+    /* color: white;
+    border: white 2px solid; */
     display: inline-block;
     position: absolute;
-    top: 13px;
-    left: 28px;
+    top: 14px;
+    left: 5px;
 
-    
-    
 }
 
 .left img{
     width: 50px;
     height: 50px;
-    /* border-radius: 500px; */
+    margin: 4px 15px;
+    padding: 13px 13px;
 
 }
 
-.left h3
-{
-    padding: 1px 1px;
-    margin: 1px auto;
-    font-family: 'Ubuntu', sans-serif;;
+h3{
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1px 20px;
+    margin: -13px auto;
 }
-
 
 .mid{
     display: block;
     width: 40%;
-    margin: 5px auto;
-    border: 3px solid rgba(129, 93, 93, 0);
-}
-
-.navbar{
-    list-style: none;
-    text-decoration: none;
+    /* color: white;
+    border: white 2px solid; */
+    margin: 35px auto;
 
 }
-.navbar li a{
+
+.right{
+    /* color: white;
+    border: white 2px solid; */
+    display: inline-block;
+    position: absolute;
+    top: 14px;
+    right: 5px;
+
+
+}
+.btn{
     
-    padding: 5px;
-    
+    border: none;
+    border-radius: 10px;
+    margin: 25px 7px;
+    padding: 11px 21px;
     font-family: 'Ubuntu', sans-serif;
-    color: aliceblue;
+    /* width: 20%; */
+
+}
+
+
+
+
+#login{
+    background-color: rgb(255, 1, 86);
+    border: 2px solid black;
+
+}
+
+#signup{
+    background-color: rgb(1, 183, 255);
+    border: 2px solid black;
+}
+
+#login:hover{
+    border: 2px solid black;
+    transition:1s;
+    border-radius:50px;
+    background-color: rgb(241, 0, 0);
+
+}
+#signup:hover{
+    border: 2px solid black;
+    transition:1s;
+    border-radius:50px;
+    background-color: rgb(0, 255, 21);
+    
+
+}
+
+.btn:hover{
+    
+    cursor: pointer;
+    
+    
+    
+
+
+}
+.navbar{
+
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+
+    
+
+
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 14px 20px;
+}
+
+a{
     text-decoration: none;
+}
+
+.navbar li a{
+    font-size: large;
+    color: white;
+    padding: 3px;
 }
 
 .navbar li a:hover{
-    background-color: rgba(0, 0, 0, 0.233);
-    border-radius: 10px;
-    border: blue 3px solid;
-    color: rgb(166, 255, 0);
-    /* text-decoration:underline; */
+    
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(69, 255, 22);
 
 }
 
-
-
-.navbar li {
-    padding: 10px 15px;
-    display: inline-block;
-}
-
-.text{
+.Tech{
 
     /* border: 2px solid black; */
     padding: 1px 1px;
@@ -81,56 +144,19 @@ body{
     top: 19%;
     display: inline-block;
     width: 50%;
+
+
 }
 
-.text h1{
-    /* outline-width: px; */
+.Tech h1{
+    color: white;
     font-size: 120px;
     text-shadow: 0 0 30px black;
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Acme', sans-serif;
-}
-
-.right{
-    /* border: 3px solid red; */
-    display: inline-block;
-    position: absolute;
-    top: 20px;
-    right : 80px;
-}
-
-.btn1
-{
-    padding: 11px 18px;
-    margin: 2px 2px;
-    color: white;
-    background-color: rgb(211, 20, 131);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
 
 }
-.btn2
-{
-    padding: 11px 18px;
-    margin: 2px 2px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(212, 41, 41);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
 
-}
-.btn1:hover{
-    color: black;
-    background-color: rgb(255, 85, 227);
-    border: 2px black solid;
-}
-.btn2:hover{
-    color: black;
-    background-color: rgb(255, 85, 85);
-    border: 2px black solid;
-}
 
 .container {
     background-color: rgba(0, 0, 0, 0.219);
@@ -165,6 +191,7 @@ body{
     /* margin: auto; */
     padding: 3px 3px;
     font-size: 72px;
+    color: aliceblue;
 }
 
 /* #btnlog1{
@@ -189,4 +216,15 @@ body{
 
 }
 
+.container:hover{
 
+    background-color: rgba(255, 0, 0, 0.13);
+    transition: 3s;
+}
+
+.container h3 :hover{
+
+    color: floralwhite;
+    text-shadow: 0 0 50px black;
+
+}
